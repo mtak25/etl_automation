@@ -1,0 +1,12 @@
+01-12-2024 07:21:25 PM - Validations - INFO - Source Product table Count:46
+01-12-2024 07:21:25 PM - Validations - INFO - Target Product_dim table Count: 46
+01-12-2024 07:21:25 PM - Validations - INFO - Source & Target Count validation status: PASS
+01-12-2024 07:21:25 PM - Validations - INFO - Source & Target Record Count Validation Successfully Completed!
+01-12-2024 07:21:25 PM - Validations - INFO - Null records count:0
+01-12-2024 07:21:25 PM - Validations - INFO - Null check validation status:PASS
+01-12-2024 07:21:25 PM - Validations - INFO - Null check Validation Completed Successfully!.
+01-12-2024 07:21:26 PM - Validations - INFO - Duplicate Records count:0
+01-12-2024 07:21:26 PM - Validations - INFO - Duplicate check validation status:PASS
+01-12-2024 07:21:26 PM - Validations - INFO - Duplicate check validation completed Successfully!
+01-12-2024 07:21:26 PM - Validations - INFO - Source & Target columns mapping status: PASS
+01-12-2024 07:21:26 PM - Validations - INFO - Source & Target columns mapping completed Successfully!

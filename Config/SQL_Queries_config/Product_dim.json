@@ -1,0 +1,24 @@
+{
+    "table_names": {
+        "source": "product",
+        "target": "product_dim"
+    },
+
+"count_comparison": {
+        "source_query": "select count(*) from product",
+        "target_query": "select count(*) from product_dim"
+    },
+    "null_check": {
+        "target_query": "select count(*) from product_dim where product_id is null or product_name is null or price is null or sales_date is null",
+        "null_records_query": "select * from product_dim where product_id is null or product_name is null or price is null or sales_date is null"
+    },
+    "duplicate_check": {
+        "target_query": "select count(product_id) from product_dim group by product_id having count(product_id)>1",
+        "duplicate_records_query": "select product_id, count(product_id) as duplicate_count from product_dim group by product_id having count(product_id) > 1"
+    },
+    "column_mapping": {
+        "source_query": "select product_id ,product_name,round(price) as price,date_format(sales_date,'%d-%m-%y') sales_date from product",
+        "target_query": "select product_id,product_name,price,sales_date from product_dim"
+
+    }
+}

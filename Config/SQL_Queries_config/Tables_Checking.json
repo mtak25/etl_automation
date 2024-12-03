@@ -1,0 +1,4 @@
+{
+  "Source_tables": ["PRODUCT","INVENTORY","COST"],
+  "Target_tables": ["PRODUCT_DIM","INVENTORY_DIM","COST_DIM","SALES_FACT"]
+}
